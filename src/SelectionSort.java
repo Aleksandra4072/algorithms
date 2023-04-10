@@ -1,6 +1,6 @@
 public class SelectionSort {
     static int[] run (int[] unsortedArray) {
-        for (int i = 0; i < unsortedArray.length -1; i++) {
+        for (int i = 0; i < unsortedArray.length - 1; i++) {
             int index = i;
             for (int j = i + 1; j < unsortedArray.length; j++) {
                 if (unsortedArray[j] < unsortedArray[index]) {
