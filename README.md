@@ -1,4 +1,11 @@
 # Grokking BinarySearch (by Aditya Y. Bhargava)
+### Linear Search
+
+Input: array, element;
+
+Result: The indexes of the element if found or "Null" if not found;
+
+Process: Look at every element to find the needed one;
 
 ### Binary Search
 

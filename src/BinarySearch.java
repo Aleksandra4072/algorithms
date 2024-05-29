@@ -1,5 +1,5 @@
 public class BinarySearch {
-    static Integer run (int[] sortedList, int item) {
+    static int run (int[] sortedList, int item) {
         int low = 0;
         int high = sortedList.length - 1;
         while (low <= high) {
@@ -12,6 +12,6 @@ public class BinarySearch {
                 low = middle + 1;
             }
         }
-        return null;
+        return -1;
     }
 }
